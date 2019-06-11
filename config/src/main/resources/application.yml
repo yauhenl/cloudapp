@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: 'ssh://localhost/cloudapp-config'
+          clone-on-start: true
+  security:
+    user:
+      name: yauhenl
+      password: test12
