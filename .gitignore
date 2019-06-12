@@ -32,3 +32,7 @@ HELP.md
 # Project exclude paths
 /config/build/
 /config/build/classes/java/main/
+/discovery/build/
+/discovery/build/classes/java/main/
+/gateway/build/
+/gateway/build/classes/java/main/

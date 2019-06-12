@@ -1,1 +1,3 @@
 include ':config'
+include ':discovery'
+include ':gateway'

@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      name: gateway
+      discovery:
+        service-id: config
+        enabled: true
+      username: yauhenl
+      password: test12
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

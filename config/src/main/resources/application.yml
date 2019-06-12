@@ -7,9 +7,18 @@ spring:
     config:
       server:
         git:
-          uri: 'ssh://localhost/cloudapp-config'
+          uri: 'https://github.com/yauhenl/cloudapp-config.git'
           clone-on-start: true
+    compatibility-verifier:
+      enabled: false
   security:
     user:
       name: yauhenl
       password: test12
+
+eureka:
+  client:
+    region: default
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: 'http://localhost:8761/eureka/'
