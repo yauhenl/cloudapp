@@ -36,3 +36,5 @@ HELP.md
 /discovery/build/classes/java/main/
 /gateway/build/
 /gateway/build/classes/java/main/
+/auth-service/build/
+/auth-service/build/classes/java/main/
